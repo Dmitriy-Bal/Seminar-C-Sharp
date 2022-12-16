@@ -34,7 +34,7 @@ for (i = 2; i <= n / 2; i++)
         m = n - i;
         for (k = 2; k <= (m + 1) / 2; k++)
         {
-            if (n % k == 0)
+            if (m % k == 0)
                 countDel++;
         }
         if (countDel == 0)
