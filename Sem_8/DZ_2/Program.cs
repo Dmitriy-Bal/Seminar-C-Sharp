@@ -46,13 +46,6 @@ int SumLineElements(int[,] matrix, int i)
   return sumLine;
 }
 
-int InputNumbers(string input)
-{
-  Console.Write(input);
-  int output = Convert.ToInt32(Console.ReadLine());
-  return output;
-}
-
 
 Console.Clear();
 Console.Write("Ведите размер матрицы через пробел: ");
