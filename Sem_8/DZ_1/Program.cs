@@ -30,12 +30,6 @@ void OrderArrayLines(int[, ] matrix)
   }
 }
 
-int InputNumbers(string input)
-{
-  Console.Write(input);
-  int output = Convert.ToInt32(Console.ReadLine());
-  return output;
-}
 
 void CreateArray(int[, ] matrix)
 {
