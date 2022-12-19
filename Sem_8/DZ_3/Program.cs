@@ -49,13 +49,6 @@ void MultiplyMatrix(int[,] firstMartrix, int[,] secomdMartrix, int[,] thirdMatri
   }
 }
 
-int InputNumbers(string input)
-{
-  Console.Write(input);
-  int output = Convert.ToInt32(Console.ReadLine());
-  return output;
-}
-
 
 Console.Clear();
 Console.Write("Ведите размер матрицы через пробел: ");
